@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Taymer va Sekundomer</title>
+  </head>
+  <body>
+    <div class="kontent">
+      <div class="taymer">
+        <h2>Taymer</h2>
+        <input type="number" id="vaqtKiritish" placeholder="Minut kiriting" />
+        <button onclick="taymernStart()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="restartTimer()">Restart</button>
+        <div id="taymerDispley">00:00</div>
+      </div>
+
+      <div class="sekundomer">
+        <h2>Sekundomer</h2>
+        <button onclick="sekundomerStart()">Start</button>
+        <button onclick="stopSekundomer()">Stop</button>
+        <button onclick="sekundomerRestart()">Restart</button>
+        <div id="sekundomerDispley">00:00</div>
+      </div>
+    </div>
+    <script src="./style.js"></script>
+  </body>
+</html>

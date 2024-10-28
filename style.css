@@ -1,0 +1,37 @@
+.kontent {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.taymer,
+.sekundomer {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+input,
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #26efe2;
+  margin-bottom: 16px;
+  color: white;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #5745a0;
+}
